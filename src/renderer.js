@@ -17,7 +17,7 @@ const submitListener = document
       name,
       pathName
     }))
-
+    console.log(filesFormatted) 
     // send the data to the main process
     ipcRenderer.send('files', filesFormatted)
   })
