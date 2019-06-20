@@ -12,7 +12,7 @@ let mainWindow
 // wait for the main process to be ready
 app.on('ready', () => {
   // path to our html
-  const htmlPath = path.join('src', 'index.html')
+  const htmlPath = path.join('client', 'index.html')
 
   // create a browser window
   mainWindow = new BrowserWindow({
